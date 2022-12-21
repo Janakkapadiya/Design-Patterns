@@ -1,12 +1,6 @@
 package DesignPatterns.BuilderDesign;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 import java.util.logging.Logger;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
-
 public class Main {
     public static final Logger log = Logger.getLogger(String.valueOf(Main.class));
     public static void main(String[] args) {

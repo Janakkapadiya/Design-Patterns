@@ -1,5 +1,9 @@
 package DesignPatterns.BuilderDesign;
 
+//we create builder design pattern when we have multiple arguments
+//and we don't want to mess up the constructor so we create setter for the optional param in subclass
+//and finally we build the main class builder
+
 public class Vehicle {
 
     //mandatory parts
