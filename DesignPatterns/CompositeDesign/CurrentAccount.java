@@ -1,6 +1,6 @@
 package DesignPatterns.CompositeDesign;
 
-public class CurrentAccount extends Account{
+public class CurrentAccount extends Account {
     private final int currentAmount;
 
     public CurrentAccount(int currentAmount) {

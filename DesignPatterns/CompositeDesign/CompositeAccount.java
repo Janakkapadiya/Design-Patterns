@@ -5,7 +5,7 @@ import DesignPatterns.FacadeDesign.Light;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CompositeAccount extends Account{
+public class CompositeAccount extends Account {
     List<Account> list = new ArrayList<>();
     @Override
     public int getBalance() {
